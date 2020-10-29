@@ -1,0 +1,34 @@
+/* .game_flex_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+div#user_hand {
+    transform: rotate(90deg);
+    font-size: 100px;
+    color: bisque;
+    /* margin-left: 30px; */
+}
+/* 
+i#user_hand {
+    height: 220px;
+} */
+
+.user_hand_anim {
+    animation: userhand .7s 2;
+    transform-origin: bottom right;
+}
+
+#bot_hand {
+    transform: rotateY(180deg) rotate(90deg);
+    font-size: 100px;
+    color: darkgray;
+    /* margin-right: 20px; */
+}
+
+@keyframes userhand {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-20deg);}
+    100% {transform: rotate(0deg);}
+}
