@@ -1,8 +1,8 @@
-/* .game_flex_row {
+.game_flex_row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-} */
+}
 
 div#user_hand {
     transform: rotate(90deg);
@@ -10,10 +10,10 @@ div#user_hand {
     color: bisque;
     /* margin-left: 30px; */
 }
-/* 
+
 i#user_hand {
     height: 220px;
-} */
+}
 
 .user_hand_anim {
     animation: userhand .7s 2;

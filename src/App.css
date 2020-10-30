@@ -59,8 +59,22 @@ button:focus {
   justify-content: space-between;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
 
+#button {
+  border : 0;
+  background-color: #f05078;
+  border-radius: 5rem;
+  padding: 20px;
+}
 
+.far {
+  font-size: 40px;
+  color: white;
+}
 
 @media only screen and (min-width: 600px) {
   .main_screen {
